@@ -33,6 +33,7 @@ Sua aplicação deverá possuir alguns endpoints capazes de:
 _Como **opcional** você também pode ter a funcionalidade de:_
 
 - _Consultar um alerta específico (opcional)_;
+- _Modificar o atributo de um alerta (opcional);_
 - _Remover um alerta cadastrado (opcional)_.
 
 Os alertas devem ser cadastrado em uma tabela do banco de dados **MySQL** e devem possuir a seguinte estrutura:
@@ -93,7 +94,8 @@ e você receber no endpoint de métricas recebidas o seguinte valor:
 {"metricName":"throughput","appName":"ms-system-02","value":1651}
 ```
 
-Sua **API** deverá criar um registro na **tabela de incidentes** que possuí a seguinte estrutura (caso não atenda a condição, deverá ignorar a criação do registro na tabela e informar nos logs):
+Sua **API** deverá criar um registro na **tabela de incidentes** que possuí a seguinte estrutura (caso não atenda a condição ou o alerta esteja como desabilitado, deverá ignorar a criação do registro na tabela e informar nos logs):
+
 
 |   Campo   |   Tipo   | Descrição |
 |-----------|----------|-----------|
