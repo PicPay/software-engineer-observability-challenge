@@ -112,7 +112,7 @@ Sua **API** deverá criar um registro na **tabela de incidentes** que possuí a 
 
 Sua aplicação deverá:
 
-- **Possuir um endpoint chamado _/heath_**
+- **Possuir um endpoint chamado _/health_**
 
 _Este endpoint deve retornar a saúde da sua aplicação, deve indicar se todas as dependencias do seu sistema estão ok._
 
