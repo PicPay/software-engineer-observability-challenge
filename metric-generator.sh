@@ -36,4 +36,6 @@ do
     sendCurl "response_time" "ms-system-05" ${RANDOM:0:3}
     sendCurl "error_rate_percentile" "ms-system-05" ${RANDOM:0:2}
     sendCurl "throughput" "ms-system-05" ${RANDOM:0:5}
+    
+    sleep 30
 done
