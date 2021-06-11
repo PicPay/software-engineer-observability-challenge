@@ -1,0 +1,16 @@
+appname,title,description,metric,condition,threshold
+ms-system-01,Tempo de Resposta,Tempo de Resposta da aplicação está muito alto,response_time,>=,2
+ms-system-01,Porcentagem de Erros,Taxa de erros acima do normal,error_rate_percentile,>,1
+ms-system-01,Quantidade de Requisições ,Número de requisições aumentou,throughput,<=,1
+ms-system-02,Tempo de Resposta,Tempo de Resposta da aplicação está muito alto,response_time,=,3
+ms-system-02,Porcentagem de Erros,Taxa de erros acima do normal,error_rate_percentile,>,0
+ms-system-02,Quantidade de Requisições ,Número de requisições aumentou,throughput,>,4
+ms-system-03,Tempo de Resposta,Tempo de Resposta da aplicação está muito alto,response_time,>,1
+ms-system-03,Porcentagem de Erros,Taxa de erros acima do normal,error_rate_percentile,>= ,2
+ms-system-03,Quantidade de Requisições ,Número de requisições aumentou,throughput,<,3
+ms-system-04,Tempo de Resposta,Tempo de Resposta da aplicação está muito alto,response_time,>,2
+ms-system-04,Porcentagem de Erros,Taxa de erros acima do normal,error_rate_percentile,>,0
+ms-system-04,Quantidade de Requisições ,Número de requisições aumentou,throughput,<=,5
+ms-system-05,Tempo de Resposta,Tempo de Resposta da aplicação está muito alto,response_time,>,2
+ms-system-05,Porcentagem de Erros,Taxa de erros acima do normal,error_rate_percentile,>=,1
+ms-system-05,Quantidade de Requisições ,Número de requisições aumentou,throughput,<,3
