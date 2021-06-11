@@ -164,10 +164,18 @@ _Este endpoint deve retornar a saúde da sua aplicação, deve indicar se todas 
 
     ```sh
     # app-name-incidents-qtd
-    app-name-incidents-qtd{app_name="ms-system-01", enabled=true} 10
-    app-name-incidents-qtd{app_name="ms-system-02", enabled=false} 0
-    app-name-incidents-qtd{app_name="ms-system-03", enabled=true} 50
+    app-name-incidents-qtd{app_name="ms-system-01"} 10
+    app-name-incidents-qtd{app_name="ms-system-02"} 0
+    app-name-incidents-qtd{app_name="ms-system-03"} 50
     ```
+## Implementação em Cloud
+
+Para finalizar, apresente uma solução para implementar esse API na nuvem.
+
+- Apresentar quais serviços utilizaria
+- Apresentar qual ou quais ferramentas de automação utilizaria
+- Deve ser descrito no README
+- _Se preferir, pode criar um desenho da arquitetura para ajudar (opcional)_
 
 ## Premissas
 
@@ -200,9 +208,8 @@ Fique livre para sugerir outras abordagens :)
   - **Exposição de métricas e saúde da aplicação**.
 - As linguagens e framework são livres, mas tenha em mente as premissas da solução.
 - Respeitar as interfaces REST definidas;
-- Testes unitários.
+- Apresentar solução de arquitetura para rodar o projeto em cloud native.
 
 ## Extras
 - Proposta de melhoria de solução;
-- Apresentar diagrama de arquitetura para rodar o projeto em cloud native.
 
