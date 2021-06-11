@@ -169,40 +169,40 @@ _Este endpoint deve retornar a saúde da sua aplicação, deve indicar se todas 
     app-name-incidents-qtd{app_name="ms-system-03", enabled=true} 50
     ```
 
-    ## Premissas
+## Premissas
 
-    ### Execução
+### Execução
 
-    Sua aplicação deverá rodar utilizando docker. Utilize como referência o arquivo `docker-compose.yml` disponibilizado neste projeto.
+Sua aplicação deverá rodar utilizando docker. Utilize como referência o arquivo `docker-compose.yml` disponibilizado neste projeto.
 
-    ### Facilidades de uso
+### Facilidades de uso
     
-    Simplicidade na configuração e execução da sua aplicação, conforme exemplo:
+Simplicidade na configuração e execução da sua aplicação, conforme exemplo:
 
-    ```sh
-    git clone meu_repositorio.git
-    cd meu_repositorio
-    docker-compose up -d
-    ```
+```sh
+git clone meu_repositorio.git
+cd meu_repositorio
+docker-compose up -d
+```
 
-    Fique livre para sugerir outras abordagens :)
+Fique livre para sugerir outras abordagens :)
 
-    ## O que será avaliado e valorizado
+## O que será avaliado e valorizado
 
-    - Documentação (usar o próprio README.md do projeto);
-    - Código limpo e organizado;
-    - Aplicação funcionando e rodando;
-      - A Aplicação precisa estar rodando em **docker**;
-    - Logs da aplicação configurados em JSON;
-    - Ter sido implementado as 3 principais funcionalidades descritas acima:
-      - **Gestão de alertas**;
-      - **Gestão de incidentes**; e
-      - **Exposição de métricas e saúde da aplicação**.
-    - As linguagens e framework são livres, mas tenha em mente as premissas da solução.
-    - Respeitar as interfaces REST definidas;
-    - Testes unitários.
+- Documentação (usar o próprio README.md do projeto);
+- Código limpo e organizado;
+- Aplicação funcionando e rodando;
+  - A Aplicação precisa estar rodando em **docker**;
+- Logs da aplicação configurados em JSON;
+- Ter sido implementado as 3 principais funcionalidades descritas acima:
+  - **Gestão de alertas**;
+  - **Gestão de incidentes**; e
+  - **Exposição de métricas e saúde da aplicação**.
+- As linguagens e framework são livres, mas tenha em mente as premissas da solução.
+- Respeitar as interfaces REST definidas;
+- Testes unitários.
 
-    ## Extras
-    - Proposta de melhoria de solução;
-    - Apresentar diagrama de arquitetura para rodar o projeto em cloud native.
+## Extras
+- Proposta de melhoria de solução;
+- Apresentar diagrama de arquitetura para rodar o projeto em cloud native.
 
